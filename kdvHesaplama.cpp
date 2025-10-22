@@ -45,7 +45,7 @@ int main() {
     system("chcp 65001 > nul");
     system("title KDV Hesaplayıcı");
     system("mode con cols=70 lines=29");
-    system("color 3F");
+    system("color 3");
     const string apiUrl = "https://api.frankfurter.app/latest?from=USD&to=TRY";
     double kurOran = getExchangeRate(apiUrl);
     if (kurOran <= 0.0) {
